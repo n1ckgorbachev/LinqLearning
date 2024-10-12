@@ -6,7 +6,7 @@ namespace LinqLearning
     {
         static void Main(string[] args)
         {
-            List<Person> people = new List<Person>()
+            var people = new List<Person>()
             {
                 new Person("John", 18),
                 new Person("Alex", 20),
